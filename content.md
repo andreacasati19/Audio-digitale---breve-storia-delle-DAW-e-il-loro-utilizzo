@@ -21,8 +21,6 @@ In questo volume, verranno esplorate le basi dell’audio digitale, introducendo
 
 L’introduzione termina con un invito a intraprendere questo viaggio alla scoperta del mondo dell’audio digitale e delle DAW. Che si tratti di aspiranti produttori musicali, appassionati o semplici curiosi, si auspica che questo libro possa offrire una comprensione chiara e avvincente di questi temi, aprendo la strada ad approfondimenti più mirati.
 
-\newpage
-
 ## AUDIO DIGITALE: basi e cenni storici
 
 ### Le origini dell’audio digitale
@@ -87,8 +85,6 @@ Nell’era moderna, l’audio digitale è onnipresente. Dagli smartphone ai comp
 Anche nell’industria cinematografica, l’audio digitale ha avuto un impatto significativo. Le colonne sonore vengono registrate e mixate utilizzando software avanzati, permettendo una precisione e una creatività senza precedenti. Effetti sonori complessi e musiche sincronizzate con l’azione sullo schermo sono resi possibili grazie alle capacità dell’audio digitale.
 
 In sintesi, l’audio digitale ha trasformato il modo in cui si manipola e si fruisce del suono, offrendo maggiore flessibilità e qualità. Le innovazioni nel campo dell’audio digitale hanno permesso lo sviluppo di nuove forme di intrattenimento e comunicazione, migliorando l’esperienza sonora in ogni ambito della vita quotidiana. Con queste basi, si può ora comprendere meglio il ruolo cruciale delle Digital Audio Workstations (DAW) nel processo di produzione dell’audio digitale. Il prossimo capitolo approfondirà in dettaglio cosa sono le DAW, come funzionano e quale impatto hanno avuto sull’industria musicale.
-
-\newpage
 
 ## DIGITAL AUDIO WORKSTATION (DAW)
 
@@ -358,7 +354,5 @@ Un altro protocollo emergente è OSC (Open Sound Control), che offre maggiore fl
 
 In sintesi, le innovazioni e gli sviluppi futuri delle DAW promettono di trasformare ulteriormente il panorama della produzione musicale. L’integrazione dell’intelligenza artificiale e del machine learning, la collaborazione cloud, le interfacce utente avanzate, il supporto per nuovi formati audio e l’evoluzione dei protocolli di controllo sono solo alcune delle tendenze che stanno plasmando il futuro delle DAW. Queste innovazioni renderanno la produzione musicale più accessibile, flessibile e creativa, aprendo nuove possibilità per musicisti e produttori di tutto il mondo. Con queste tecnologie all’avanguardia, il futuro della musica digitale appare estremamente promettente e ricco di opportunità per l’esplorazione sonora e la creatività artistica.
 
-\newpage
-
-## Bibliografia
+## Bibliografia, sitografia e testi di approfondimento
 
