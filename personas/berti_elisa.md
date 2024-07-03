@@ -6,10 +6,10 @@
 - **Luogo di nascita**: Firenze, Italia
 - **Luogo di residenza**: Firenze, Italia
 
-### Informazioni
+### Informazioni generali
 - **Professione**: Impiegato amministrativo
-- **Istruzione**: Laurea Magistrale in Economia presso l'università degli Studi di Roma Tor Vergata
-- **Interessi**: Musica, tecnologia, lettura, escursionismo, fotografia
+- **Istruzione**: Diploma di Conservatorio in Pianoforte
+- **Interessi**: Didattica musicale, produzione musicale, nuove tecnologie educative, yoga, lettura, cucina
 
 ### Informazioni, interessi, stile di vita e comportamenti
 
