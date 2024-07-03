@@ -61,11 +61,11 @@ Un codec audio è un software o un hardware che codifica o decodifica dati audio
 
 I formati di file audio determinano come i dati vengono memorizzati e possono influenzare la qualità e le dimensioni del file. Tra i formati più comuni si trovano:
 
-- **WAV** (Waveform Audio File Format): Un formato non compresso che offre alta qualità ma occupa *molto* spazio. Viene soprattutto utilizzato in contesti professionali e di produzione musicale. Un file audio in formato WAV è un elenco di campioni, ciascuno con il suo valore di ampiezza quantizzato (16, 24 o 32 bit).
-- **MP3** (MPEG Audio Layer III): Un formato compresso che bilancia qualità e dimensione del file, ampiamente utilizzato per la musica digitale. La compressione può ridurre la qualità, ma i file risultanti sono molto più piccoli.
-- **FLAC** (Free Lossless Audio Codec): Un formato compresso senza perdita di dati che mantiene la qualità originale pur riducendo le dimensioni del file. Ideale per gli audiofili che desiderano archiviare musica senza compromessi sulla qualità.
-- **AAC** (Advanced Audio Codec): Un altro formato compresso utilizzato in molte piattaforme di streaming e dispositivi mobili, noto per una migliore qualità rispetto all’MP3 a bit rate simili.
-- **ALAC** (Apple Lossless Audio Codec): Un formato lossless sviluppato da Apple, utilizzato principalmente all’interno dell’ecosistema Apple.
+- **WAV** (Waveform Audio File Format): un formato non compresso che offre alta qualità ma occupa *molto* spazio. Viene soprattutto utilizzato in contesti professionali e di produzione musicale. Un file audio in formato WAV è un elenco di campioni, ciascuno con il suo valore di ampiezza quantizzato (16, 24 o 32 bit).
+- **MP3** (MPEG Audio Layer III): un formato compresso che bilancia qualità e dimensione del file, ampiamente utilizzato per la musica digitale. La compressione può ridurre la qualità, ma i file risultanti sono molto più piccoli.
+- **FLAC** (Free Lossless Audio Codec): un formato compresso senza perdita di dati che mantiene la qualità originale pur riducendo le dimensioni del file. Ideale per gli audiofili che desiderano archiviare musica senza compromessi sulla qualità.
+- **AAC** (Advanced Audio Codec): un altro formato compresso utilizzato in molte piattaforme di streaming e dispositivi mobili, noto per una migliore qualità rispetto all’MP3 a bit rate simili.
+- **ALAC** (Apple Lossless Audio Codec): un formato lossless sviluppato da Apple, utilizzato principalmente all’interno dell’ecosistema Apple.
 
 Il formato e il codec utilizzato per l'audio digitale determinano la qualità e lo spazio occupato. La scelta è quindi effettuata a seconda del contesto in cui l'audio digitale viene utilizzato.
 
@@ -73,10 +73,10 @@ Il formato e il codec utilizzato per l'audio digitale determinano la qualità e 
 
 L’audio digitale ha trovato applicazione in vari settori, dall’intrattenimento alla comunicazione, dalla medicina alla sicurezza. Alcuni dei vantaggi principali dell’audio digitale includono:
 
-- **Qualità superiore**: L’audio digitale può offrire una qualità sonora superiore rispetto all’analogico, grazie alla riduzione del rumore e alla precisione nella rappresentazione del suono.
-- **Flessibilità**: I file audio digitali possono essere facilmente copiati, modificati e trasmessi senza perdita di qualità. Questo rende molto più semplice l’editing e la distribuzione dei contenuti audio.
-- **Conservazione**: L’audio digitale non degrada nel tempo come i supporti analogici, garantendo una lunga durata. Un file digitale mantenuto correttamente può rimanere intatto potenzialmente per sempre.
-- **Interattività**: Le tecnologie digitali permettono nuove forme di interazione con il suono, come i giochi musicali, le applicazioni di realtà virtuale e aumentata. Inoltre, l’audio digitale è essenziale per le applicazioni di intelligenza artificiale e machine learning, dove i dati sonori devono essere analizzati e manipolati da algoritmi complessi.
+- **Qualità superiore**: l’audio digitale può offrire una qualità sonora superiore rispetto all’analogico, grazie alla riduzione del rumore e alla precisione nella rappresentazione del suono.
+- **Flessibilità**: i file audio digitali possono essere facilmente copiati, modificati e trasmessi senza perdita di qualità. Questo rende molto più semplice l’editing e la distribuzione dei contenuti audio.
+- **Conservazione**: l’audio digitale non degrada nel tempo come i supporti analogici, garantendo una lunga durata. Un file digitale mantenuto correttamente può rimanere intatto potenzialmente per sempre.
+- **Interattività**: le tecnologie digitali permettono nuove forme di interazione con il suono, come i giochi musicali, le applicazioni di realtà virtuale e aumentata. Inoltre, l’audio digitale è essenziale per le applicazioni di intelligenza artificiale e machine learning, dove i dati sonori devono essere analizzati e manipolati da algoritmi complessi.
 
 ### Il ruolo dell’audio digitale nell’era moderna
 
@@ -102,10 +102,10 @@ Le caratteristiche principali di una DAW sono le seguenti:
 
 Una DAW presenta generalmente le seguenti componenti:
 
-- **Interfaccia utente (UI)**: L’interfaccia utente di una DAW è progettata per essere intuitiva e facile da usare. Include finestre per la visualizzazione delle tracce, pannelli di controllo per effetti e strumenti virtuali, e strumenti di navigazione per spostarsi facilmente all’interno del progetto. Ciascuna DAW presenta la sua UI.
-- **Piste e tracce**: Le DAW organizzano l’audio in piste e tracce. Ogni traccia può contenere audio registrato, strumenti virtuali, o effetti. Le piste possono essere mixate e modificate in modo indipendente dalle altre, permettendo una grande flessibilità nella produzione.
-- **Effetti e plug-in**: Le DAW supportano una vasta gamma di effetti e plug-in, che possono essere applicati alle tracce per modificare il suono. Questi includono riverberi, delay, equalizzazioni, compressioni, distorsioni, e molti altri.
-- **MIDI**: Il MIDI (Musical Instrument Digital Interface) è un protocollo che permette ai dispositivi musicali elettronici di comunicare tra loro. Le DAW supportano il MIDI, permettendo di registrare e modificare performance musicali con strumenti virtuali.
+- **Interfaccia utente (UI)**: l’interfaccia utente di una DAW è progettata per essere intuitiva e facile da usare. Include finestre per la visualizzazione delle tracce, pannelli di controllo per effetti e strumenti virtuali, e strumenti di navigazione per spostarsi facilmente all’interno del progetto. Ciascuna DAW presenta la sua UI.
+- **Piste e tracce**: le DAW organizzano l’audio in piste e tracce. Ogni traccia può contenere audio registrato, strumenti virtuali, o effetti. Le piste possono essere mixate e modificate in modo indipendente dalle altre, permettendo una grande flessibilità nella produzione.
+- **Effetti e plug-in**: le DAW supportano una vasta gamma di effetti e plug-in, che possono essere applicati alle tracce per modificare il suono. Questi includono riverberi, delay, equalizzazioni, compressioni, distorsioni, e molti altri.
+- **MIDI**: il MIDI (Musical Instrument Digital Interface) è un protocollo che permette ai dispositivi musicali elettronici di comunicare tra loro. Le DAW supportano il MIDI, permettendo di registrare e modificare performance musicali con strumenti virtuali.
 - **Automazione**: l’automazione è una caratteristica che permette di programmare cambiamenti nei parametri audio nel tempo. Ad esempio, è possibile automatizzare il volume, il pan o gli effetti di una traccia, creando dinamiche complesse e interessanti. L'automazione sostituisce il lavoro manuale di modifiche dei parametri che farebbe un fonico durante l'esecuzione di un brano.
 
 I vantaggi di una DAW rispetto a metodi tradizionali di lavoro:
@@ -133,9 +133,9 @@ Le DAW sono essenziali nella produzione musicale moderna. Consentono ai musicist
 
 La registrazione audio con una DAW offre precisione e flessibilità senza precedenti. Le tracce registrate possono essere facilmente modificate per ottenere il risultato desiderato. Le principali funzioni includono:
 
-- **Registrazione multitraccia**: Le DAW permettono di registrare simultaneamente più tracce audio, consentendo di catturare performance complesse con strumenti e voci multiple.
-- **Editing audio**: Le tracce registrate possono essere tagliate, copiate, incollate e spostate. Gli errori possono essere corretti senza dover rifare intere sessioni di registrazione, risparmiando tempo e risorse.
-- **Correzione dell’intonazione e del timing**: Funzionalità come la correzione dell’intonazione (ad esempio Auto-Tune) e la quantizzazione del timing permettono di migliorare la precisione delle performance registrate.
+- **Registrazione multitraccia**: le DAW permettono di registrare simultaneamente più tracce audio, consentendo di catturare performance complesse con strumenti e voci multiple.
+- **Editing audio**: le tracce registrate possono essere tagliate, copiate, incollate e spostate. Gli errori possono essere corretti senza dover rifare intere sessioni di registrazione, risparmiando tempo e risorse.
+- **Correzione dell’intonazione e del timing**: funzionalità come la correzione dell’intonazione (ad esempio Auto-Tune) e la quantizzazione del timing permettono di migliorare la precisione delle performance registrate.
 
 *Mixing e mastering*
 
