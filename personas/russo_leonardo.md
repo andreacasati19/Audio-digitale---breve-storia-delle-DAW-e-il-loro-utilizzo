@@ -3,7 +3,7 @@
 ### Dati anagrafici
 - **Nome**: Leonardo Russo
 - **Età**: 28 anni
-- **Luogo di nascita**: Ciampino (Roma)
+- **Luogo di nascita**: Ciampino (Roma), Italia
 - **Luogo di residenza**: Milano, Italia
 
 ### Informazioni
