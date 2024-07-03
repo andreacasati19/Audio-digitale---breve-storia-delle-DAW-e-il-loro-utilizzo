@@ -6,7 +6,7 @@
 - **Luogo di nascita**: Ciampino (Roma), Italia
 - **Luogo di residenza**: Milano, Italia
 
-### Informazioni
+### Informazioni generali
 - **Professione**: Impiegato amministrativo
 - **Istruzione**: Laurea Magistrale in Economia presso l'università degli Studi di Roma Tor Vergata
 - **Interessi**: Musica, tecnologia, lettura, escursionismo, fotografia
