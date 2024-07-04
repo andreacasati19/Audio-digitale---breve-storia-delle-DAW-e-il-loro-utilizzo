@@ -63,7 +63,7 @@ La ricerca è stata effettuata su:
 - "audio digitale"
 - "digital audio workstation"
 
-I risultati della ricerca sono presenti nella seguente repository di GitHub: [**Link al repository**](https://github.com/andreacasati19/Audio-digitale---breve-storia-delle-DAW-e-il-loro-utilizzo/tree/main/monitoraggio)
+I risultati della ricerca sono presenti nella seguente repository di GitHub: [**Link al repository**](https://github.com/andreacasati19/Audio-digitale---breve-storia-delle-DAW-e-il-loro-utilizzo/tree/main/relazione/monitoraggio)
 
 ### Destinatari
 
@@ -71,7 +71,7 @@ Il seguente prodotto editoriale, come già accennato, si rivolge a un pubblico d
 
 Per la descrizione delle *personas* e del pubblico potenziale per il prodotto editoriale in questione è stato deciso di sviluppare i seguenti aspetti descrittivi dei personaggi: nome, età, professione, istruzione, interessi, luogo di residenza, stile di vita, obiettivi, esperienza con l'audio digitale, punti di forza, bisogni, sfide, motivazioni, comportamenti online. In ultimo è stato deciso di aggiungere una citazione personale, come se il personaggio potesse parlare e descriversi in una frase.
 I personaggi (in questo caso tre) sono di fantasia, a cura della sensibilità del creatore.
-Le descrizioni delle personas sono presenti nella seguente repository di GitHub: [**Link al repository**](https://github.com/andreacasati19/Audio-digitale---breve-storia-delle-DAW-e-il-loro-utilizzo/tree/main/personas)
+Le descrizioni delle personas sono presenti nella seguente repository di GitHub: [**Link al repository**](https://github.com/andreacasati19/Audio-digitale---breve-storia-delle-DAW-e-il-loro-utilizzo/tree/main/relazione/personas)
 
 ### Requisiti di accettazione
 
