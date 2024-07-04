@@ -22,9 +22,12 @@ Il progetto ha come obiettivo la creazione di un eBook con cenni sull'audio digi
 Il seguente prodotto editoriale è rivolto a un pubblico di neofiti e curiosi, che vogliono ampliare la propria cultura personale in materia. È adatto a chiunque voglia avvicinarsi al mondo dell'audio digitale e delle DAW in modo graduale senza scendere troppo nel dettaglio e nei tecnicismi.
 Le tecnologie adottate per la realizzazione del seguente eBook sono:
 
-- **LaTeX** per la scrittura del contenuto dell'ebook.
-- **LLM** (nella fattispecie GPT-4o) per la creazione di parte dei contenuti in maniera automatica mediante adeguato prompt engineering.
-- **pandoc** per la trasformazione di formato (dal documento LaTeX al prodotto editoriale finito in formato ePub).
+- **Xcode** per la scrittura dei documenti LaTeX, Markdown e BibTeX
+- **LaTeX** per la scrittura del contenuto dell'ebook
+- **Markdown** per la scrittura del contenuto dell'ebook
+- **BibTeX** formato per la scrittura della bibliografia e sitografia
+- **LLM** (nella fattispecie GPT-4o) per la creazione di parte dei contenuti in maniera automatica mediante adeguato prompt engineering
+- **pandoc** per la trasformazione di formato (dal documento LaTeX al prodotto editoriale finito in formato ePub)
 - **ePub** formato per la distribuzione del prodotto editoriale finale.
 
 La raccolta documentale ha principalmente incluso l'interazione con il LLM di OpenAI: GPT-4o. Il contenuto dell'ebook è stato quasi interamente generato tramite AI, con prompt engineering adeguato e con correzione e finalizzazione umana al termine della generazione dei testi.
@@ -122,6 +125,8 @@ In generale per sottostare alle leggi sul copyright il modello mette in atto str
 
 Le fonti riportate nella stesura automatica sono quindi da considerarsi indirette: i contenuti generati si basano su riassunti, blog, recensioni e articoli a loro volta basati sui volumi riportati in bibliografia.
 
+La bibliografia, sitografia e i testi di approfondimento sono riportati al termine del libro in modo da consentire al lettore di raggiungere facilmente letture, volumi e informazioni più dettagliate e specifiche.
+
 ### Gestione documentale
 
 Descrivere il *flusso di gestione documentale* definito per il progetto. Ad esempio, (i) la raccolta o produzione dei contenuti, (ii) la valutazione dei diritti, (iii) la trasformazione dei formati, (iv) la strutturazione dei contenuti, (v) l'applicazione dello stile grafico, (vi) la generazione dei metadati, (vii) la distribuzione dei contenuti. Nella descrizione del flusso considerare le  fasi di revisione, controllo e approvazione che possono richiedere le diverse fasi.
@@ -173,8 +178,12 @@ Può anche essere utile confrontare una versione ASIS del flusso di gestione, se
 
 ## Conclusioni
 
-Discutere i risultati ottenuti, verificando se gli obiettivi definiti dai casi d'uso siano pienamente o parzialmente raggiunti. Evidenziare gli aspetti nei quali si sono raggiunti i risultati più soddisfacenti e le limitazioni emerse.
+Il risultato finale è un ebook fruibile dal pubblico target desiderato: il linguaggio è semplice e accessibile. I risultati più soddisfacenti sono stati raggiunti specialmente nell'ambito di raccolta dati e contenuti da parte di strumenti AI: il processo è stato rapido e a costo ridotto.
+Il contenuto generato è fruibile, a tratti troppo schematico e poco discorsivo, ma con fine tuning e prompt engineering adeguato è possibile adeguare lo stile di scrittura del modello a proprio piaciemento.
+Le limitazioni emerse riguardano sopratutto il riuscire a essere efficacemente esaustivi nelle spiegazioni di argomenti spesso complessi nonostante l'approccio molto basilare nei concetti. Il risultato è comunque stato raggiunto in maniera efficacie con una qualità dei contenuti molto soddisfacente.
 
 ## Bibliografia e sitografia
 
-Elencare i riferimenti bibliografici e risorse online che hanno maggiormente contribuito alla realizzazione del progetto. Ad esempio [@sechi2010,@pantieri2021,@ceravolo2023]
+---
+nocite: '@*'
+---
