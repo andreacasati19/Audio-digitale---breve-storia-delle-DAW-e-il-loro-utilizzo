@@ -138,6 +138,11 @@ In generale per sottostare alle leggi sul copyright il modello mette in atto str
 - utilizzo di materiale di dominio pubblico o open source
 - generazione di contenuti originali
 
+L'approccio alla generazione dei contenuti con GPT-4o è iniziata specificando in modo preciso l'obiettivo del contenuto, i destinatari e il formato finale.  
+Nella fase successiva è stato determinato l'indice dell'ebook mettendo a punto tutti i temi da trattare e il titolo definitivo del prodotto.
+La fase successiva è stata quella di generazione vera e propria del testo. A testo generato sono state adottate tecniche di fine tuning per determinare il linguaggio, il livello di dettaglio, la lunghezza di ciascuna sezione e la modalità di scrittura, a tratti discorsiva e a tratti molto schematica.
+Nel seguente repository sono riportati alcuni screeshot di parti della *conversazione* di prompt engineering: [**repository GitHub**](https://github.com/andreacasati19/Audio-digitale---breve-storia-delle-DAW-e-il-loro-utilizzo/tree/main/relazione/prompt%20engineering)
+
 Le fonti riportate nella stesura automatica sono quindi da considerarsi indirette: i contenuti generati si basano su riassunti, blog, recensioni e articoli a loro volta basati sui volumi riportati in bibliografia.
 
 La bibliografia, sitografia e i testi di approfondimento sono riportati al termine del libro in modo da consentire al lettore di raggiungere facilmente letture, volumi e informazioni più dettagliate e specifiche.
