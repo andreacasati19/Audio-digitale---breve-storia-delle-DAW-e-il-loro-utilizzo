@@ -95,7 +95,32 @@ Il seguente prodotto editoriale potrebbe essere inserito in una *collana editori
 ## Processo di Produzione
 
 ### Acquisizione dei contenuti
-Descrivere le fonti che saranno utilizzate nella costruzione del prodotto editoriale. Nella scelta delle fonti valutare il costo di acquisizione: (i) disponibili come fonti libere, (ii) generabili automaticamente, (iii) richiedono un lavoro di redazione manuale.
+
+L'acquisizione dei contenuti è iniziata con la consultazione di pagine web (riportate in sitografia del libro) sugli argomenti trattati dal prodotto editoriale. La consultazione ha riguardato forum, blog, canali di divulgazione multimediale (YouTube) e manuali tecnici sull'utilizzo di specifiche DAW.
+L'acquisizione dei contenuti in questa fase è stata fatta mediante fonti libere, quindi a costo pari a zero.  
+Successivamente l'acquisizione di gran parte del contenuto del prodotto è stata fatta con generazione automatica mediante la piattaforma [OpenAI](https://openai.com/). È stato utilizzato il modello ML [GPT-4o](https://openai.com/index/hello-gpt-4o/).  
+Il costo di questa fase di acquisizione riguarda due aspetti:
+
+- costo di abbonamento al servizio openAI - GPT4o
+- costo in termini di tempo per:
+    - prompt engineering adeguato e fine tuning
+    - revisione e redazione del contenuto generato
+
+Entrambe le modalità di acquisizione dei contenuti hanno richiesto un lavoro di redazione e revisione manuale.
+
+È da sottolineare inoltre che GPT-4o non ha accesso ai libri in commercio. Il contenuto generato si basa su:
+
+- informazioni e dati, preesistenti rispetto all'interrogazione, accumulati durante il processo di addestramento (contenuti presenti fino all'anno 2023)
+- informazione e dati presenti sul web (articoli, notizie, blog, forum)
+
+In generale per sottostare alle leggi sul copyright il modello mette in atto strategie quali:
+
+- evitare la riproduzione diretta
+- utilizzo di citazioni 
+- utilizzo di materiale di dominio pubblico o open source
+- generazione di contenuti originali
+
+Le fonti riportate nella stesura automatica sono quindi da considerarsi indirette: i contenuti generati si basano su riassunti, blog, recensioni e articoli a loro volta basati sui volumi riportati in bibliografia.
 
 ### Gestione documentale
 
@@ -153,4 +178,3 @@ Discutere i risultati ottenuti, verificando se gli obiettivi definiti dai casi d
 ## Bibliografia e sitografia
 
 Elencare i riferimenti bibliografici e risorse online che hanno maggiormente contribuito alla realizzazione del progetto. Ad esempio [@sechi2010,@pantieri2021,@ceravolo2023]
-
