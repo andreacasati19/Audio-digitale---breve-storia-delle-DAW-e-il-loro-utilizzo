@@ -95,6 +95,21 @@ L'identità visuale in questo tipo di contenuti (poco tecnici e adatti al pubbli
 
 Il seguente prodotto editoriale potrebbe essere inserito in una *collana editoriale digitale*: una raccolta di *tascabili digitali* con lo scopo di rendere accessibili a un pubblico inesperto e curioso temi specifici e di nicchia. Il progetto editoriale potrebbe quindi essere sviluppato anche in una serie di podcast e in formati non necessariamente atti alla lettura.
 
+Per la distribuzione dell'ebook sono stati presi in considerazione tre principali online ebook stores:
+
+- *Amazon (ebook Kindle)*
+- *Apple Books*
+- *Google Play Libri*
+
+Per quanto riguarda lo store Amazon ebook Kindle è possibile utilizzare la piattaforma Amazon Kindle Direct Publishing se il prodotto è in self-publishing. In ogni caso per l'upload è richiesto uno dei seguenti formati: DOC, DOCX, KPF, ePub e MOBI. I formati elencati consentono la completa compatibilità con i tablet Fire, con l'applicazione Kindle e la tecnologia Kindle E-ink.
+
+Per la distribuzione sullo store Apple Books è necessario effettuare l'upload del contenuto in uno dei seguenti formati: ePub, PDF, documento di testo o file iBooks.
+
+Per quanto riguarda invece Google Play Libri il formato del contenuto deve essere uno tra i seguenti: ePub e PDF.
+
+Per tutti gli stores elencati è necessario che l'eventuale PDF con il contenuto abbia la possibilità del testo selezionabile.
+
+
 ## Processo di Produzione
 
 ### Acquisizione dei contenuti
@@ -150,16 +165,35 @@ flowchart LR
 
 ### Tecnologie adottate
 
-Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.
+Come già accennato le tecnologie adottate per generare il prodotto editoriale sono le seguenti:
 
-|                |Scenario 1                          |Scenario 2                       |
-|----------------|-------------------------------|-----------------------------|
-|Markdown |`'Isn't this fun?'`            |'Isn't this fun?'            |
-|XSLT       |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|ePud         |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+- **Xcode** per la scrittura dei documenti LaTeX, Markdown e BibTeX
+- **LaTeX** per la scrittura del contenuto dell'ebook
+- **Markdown** per la scrittura del contenuto dell'ebook
+- **BibTeX** formato per la scrittura della bibliografia e sitografia
+- **LLM** (nella fattispecie GPT-4o) per la creazione di parte dei contenuti in maniera automatica mediante adeguato prompt engineering
+- **pandoc** per la trasformazione di formato (dal documento LaTeX al prodotto editoriale finito in formato ePub)
+- **ePub** formato per la distribuzione del prodotto editoriale finale.
+
+In particolare per lo scenario di distribuzione considerato (ebook distribuito digitalmente), considerato che il formato ePub è supportato da tutte le piattaforme di distribuzione di ebook, quest'ultimo è la soluzione migliore per l'esportazione del prodotto finale.  
+Il flusso di produzione ha quindi termine con la trasformazione di formato con il software Pandoc.
+Il comando Pandoc atto alla creazione del prodotto finale comprende una serie di opzioni aggiuntive:
+
+- 
+
 
 ### Esecuzione del flusso
-Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.  
+
+Nel seguente [**repository GitHub**](https://github.com/andreacasati19/Audio-digitale---breve-storia-delle-DAW-e-il-loro-utilizzo/tree/main/progetto%20editoriale) sono presenti tutti i documenti per poter riprodurre il flusso di produzione documentale. Si noti che per poter generare l'ebook in formato ePub è necessario di disporre del software Pandoc per la trasformazione di formato.
+Sono presenti:
+
+- *README.md*: documento Markdown che contiene le istruzioni per creare l'ebook in formato ePub a partire da tutte le risorse che lo compongono
+- *content.tex*: documento LaTeX in cui è descritto il contenuto vero e proprio dell'ebook
+- *content.md*: documento Markdown in cui è descritto il contenuto vero e proprio dell'ebook
+- *bibliografia.bib*: documento BibTeX in cui è descritta la bibliografia e sitografia dell'ebook
+- *IEEE.csl*: documento CSL che descrive la formattazione della bibliografia nell'ebook
+- *stylesheet.css*: documento CSS che descrive il formato grafico dell'ebook
+- *images*: directory di immagini da inserire nell'ebook
 
 ## Valutazione dei risultati raggiunti
 
@@ -167,14 +201,10 @@ Allegare, possibilmente attraverso il riferimento ad un repository documentale, 
 ### Valutazione del flusso di produzione
 
 Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di (i) riduzione dei tempi di gestione documentale, (ii) riduzione degli errori, (iii) miglioramento della qualità dei documenti, (iv) miglioramento del livello di accettazione della tecnologia, (v) raggiungimento di nuovi canali di distribuzione, (vi) soddisfacimento di nuovi scenari d'uso.
- 
-### Confronto con lo stato dell'arte
-
-Può anche essere utile confrontare una versione ASIS del flusso di gestione, senza la tecnologia o le innovazioni proposte, e una TOBE che include la tecnologia e le innovazioni proposte dallo studente.
 
 ### Limiti emersi
 
-È importante sottolineare i limiti emersi. Come l'impossibilità di accesso ad alcune tecnologie o fasi del flusso di gestione documentale, limiti nella automazione di alcune passi di trasformazione dei formati o di integrazione delle sorgenti
+Il principale limite trovato è la difficile identificazione delle fonti con l'utilizzo delle AI generative: l'elenco fonti fornito dal modello stesso è di difficile controllo e revisione.
 
 ## Conclusioni
 
