@@ -29,6 +29,8 @@ Le tecnologie adottate per la realizzazione del seguente eBook sono:
 - **LLM** (nella fattispecie GPT-4o) per la creazione di parte dei contenuti in maniera automatica mediante adeguato prompt engineering
 - **pandoc** per la trasformazione di formato (dal documento LaTeX al prodotto editoriale finito in formato ePub)
 - **ePub** formato per la distribuzione del prodotto editoriale finale.
+- **xml** linguaggio per la scrittura dei metadati
+- **Dublin Core** standard per la rappresentazione dei metadati dell'epub
 
 La raccolta documentale ha principalmente incluso l'interazione con il LLM di OpenAI: GPT-4o. Il contenuto dell'ebook è stato quasi interamente generato tramite AI, con prompt engineering adeguato e con correzione e finalizzazione umana al termine della generazione dei testi.
 
@@ -109,7 +111,6 @@ Per quanto riguarda invece Google Play Libri il formato del contenuto deve esser
 
 Per tutti gli stores elencati è necessario che l'eventuale PDF con il contenuto abbia la possibilità del testo selezionabile.
 
-
 ## Processo di Produzione
 
 ### Acquisizione dei contenuti
@@ -179,10 +180,12 @@ Come già accennato le tecnologie adottate per generare il prodotto editoriale s
 - **LLM** (nella fattispecie GPT-4o) per la creazione di parte dei contenuti in maniera automatica mediante adeguato prompt engineering
 - **pandoc** per la trasformazione di formato (dal documento LaTeX al prodotto editoriale finito in formato ePub)
 - **ePub** formato per la distribuzione del prodotto editoriale finale.
+- **xml** linguaggio per la scrittura dei metadati
+- **Dublin Core** standard per la rappresentazione dei metadati dell'epub
 
 In particolare per lo scenario di distribuzione considerato (ebook distribuito digitalmente), considerato che il formato ePub è supportato da tutte le piattaforme di distribuzione di ebook, quest'ultimo è la soluzione migliore per l'esportazione del prodotto finale.  
 Il flusso di produzione ha quindi termine con la trasformazione di formato con il software Pandoc.
-Il comando Pandoc atto alla creazione del prodotto finale comprende una serie di opzioni aggiuntive:
+Il comando Pandoc atto alla creazione del prodotto finale comprende una serie di opzioni:
 
 - 
 
