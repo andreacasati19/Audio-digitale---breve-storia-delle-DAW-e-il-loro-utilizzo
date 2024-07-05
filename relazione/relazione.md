@@ -150,24 +150,9 @@ La bibliografia, sitografia e i testi di approfondimento sono riportati al termi
 
 ### Gestione documentale
 
-Descrivere il *flusso di gestione documentale* definito per il progetto. Ad esempio, (i) la raccolta o produzione dei contenuti, (ii) la valutazione dei diritti, (iii) la trasformazione dei formati, (iv) la strutturazione dei contenuti, (v) l'applicazione dello stile grafico, (vi) la generazione dei metadati, (vii) la distribuzione dei contenuti. Nella descrizione del flusso considerare le  fasi di revisione, controllo e approvazione che possono richiedere le diverse fasi.
+Di seguito è riportato lo schema del flusso (disponibile anche in formato immagine .svg o .bpmn al [**seguente repository**](https://github.com/andreacasati19/Audio-digitale---breve-storia-delle-DAW-e-il-loro-utilizzo/tree/main/relazione/flusso)
 
-> LM2 slide 14-26
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
-```mermaid
-flowchart LR
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-```
+![Schema del flusso](flusso/flusso.png)
 
 ### Tecnologie adottate
 
@@ -186,11 +171,19 @@ Come già accennato le tecnologie adottate per generare il prodotto editoriale s
 In particolare per lo scenario di distribuzione considerato (ebook distribuito digitalmente), considerato che il formato ePub è supportato da tutte le piattaforme di distribuzione di ebook, quest'ultimo è la soluzione migliore per l'esportazione del prodotto finale.  
 Il flusso di produzione ha quindi termine con la trasformazione di formato con il software Pandoc.
 Il comando Pandoc atto alla creazione del prodotto finale ePub è il seguente:  
-```pandoc Audio\ digitale\ -\ breve\ storia\ delle\ DAW\ e\ il\ loro\ utilizzo.tex -o test.epub --citeproc --bibliography=bibliografia.bib --number-section --toc=true --css stylesheet.css --csl=IEEE.csl --epub-metadata=metadata.xml```  
+```pandoc content.tex -o Audio\ digitale\ -\ breve\ storia\ delle\ DAW\ e\ il\ loro\ utilizzo.epub --citeproc --bibliography=bibliografia.bib --number-section --toc=true --css stylesheet.css --csl=IEEE.csl --epub-metadata=metadata.xml```  
 
 In particolare:
 
--  
+- ```content.tex``` è il nome del file del contenuto del libro in formato LaTeX da trasformare
+-  ```Audio\ digitale\ -\ breve\ storia\ delle\ DAW\ e\ il\ loro\ utilizzo.epub``` indica il nome del documento ePub finale per la distribuzione finale
+- ```--citeproc``` abilita il modulo di elaborazione delle citazioni di Pandoc che elabora le citazioni e le bibliografie
+- ```--bibliography=bibliografia.bib``` indica che la bibliografia è situata nel file ```bibliografia.bib``` in formato BibTeX
+- ```--number-section``` indica a Pandoc di numerare automaticamente le sezioni del libro
+- ```--toc=true``` indica a Pandoc di generare la table of contents
+- ```--css stylesheet.css``` indica a Pandoc la presenza di un file .css per lo stile grafico
+- ```--csl=IEEE.csl``` indica che il file ``IEEE.csl```contiene le regole di formattazione delle citazioni
+- ```--epub-metadata=metadata.xml``` indica che i metadati da applicare sono contenuti nel file ```metadata.xml``
 
 ### Esecuzione del flusso
 
@@ -207,7 +200,6 @@ Sono presenti:
 
 ## Valutazione dei risultati raggiunti
 
-
 ### Valutazione del flusso di produzione
 
 Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di (i) riduzione dei tempi di gestione documentale, (ii) riduzione degli errori, (iii) miglioramento della qualità dei documenti, (iv) miglioramento del livello di accettazione della tecnologia, (v) raggiungimento di nuovi canali di distribuzione, (vi) soddisfacimento di nuovi scenari d'uso.
@@ -219,7 +211,7 @@ Il principale limite trovato è la difficile identificazione delle fonti con l'u
 ## Conclusioni
 
 Il risultato finale è un ebook fruibile dal pubblico target desiderato: il linguaggio è semplice e accessibile. I risultati più soddisfacenti sono stati raggiunti specialmente nell'ambito di raccolta dati e contenuti da parte di strumenti AI: il processo è stato rapido e a costo ridotto.
-Il contenuto generato è fruibile, a tratti troppo schematico e poco discorsivo, ma con fine tuning e prompt engineering adeguato è possibile adeguare lo stile di scrittura del modello a proprio piaciemento.
+Il contenuto generato è fruibile, a tratti troppo schematico e poco discorsivo, ma con fine tuning e prompt engineering adeguato è possibile adeguare lo stile di scrittura del modello a proprio piacimento.
 Le limitazioni emerse riguardano sopratutto il riuscire a essere efficacemente esaustivi nelle spiegazioni di argomenti spesso complessi nonostante l'approccio molto basilare nei concetti. Il risultato è comunque stato raggiunto in maniera efficacie con una qualità dei contenuti molto soddisfacente.
 
 ## Bibliografia e sitografia
