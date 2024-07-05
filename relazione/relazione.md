@@ -183,7 +183,7 @@ In particolare:
 - ```--toc=true``` indica a Pandoc di generare la table of contents
 - ```--css stylesheet.css``` indica a Pandoc la presenza di un file .css per lo stile grafico
 - ```--csl=IEEE.csl``` indica che il file ``IEEE.csl```contiene le regole di formattazione delle citazioni
-- ```--epub-metadata=metadata.xml``` indica che i metadati da applicare sono contenuti nel file ```metadata.xml``
+- ```--epub-metadata=metadata.xml``` indica che i metadati da applicare sono contenuti nel file ```metadata.xml```
 
 ### Esecuzione del flusso
 
