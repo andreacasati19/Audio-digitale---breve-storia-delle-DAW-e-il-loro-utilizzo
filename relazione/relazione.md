@@ -176,7 +176,7 @@ Il comando Pandoc atto alla creazione del prodotto finale ePub è il seguente:
 In particolare:
 
 - ```content.tex``` è il nome del file del contenuto del libro in formato LaTeX da trasformare
--  ```Audio\ digitale\ -\ breve\ storia\ delle\ DAW\ e\ il\ loro\ utilizzo.epub``` indica il nome del documento ePub finale per la distribuzione finale
+- ```Audio\ digitale\ -\ breve\ storia\ delle\ DAW\ e\ il\ loro\ utilizzo.epub``` indica il nome del documento ePub finale per la distribuzione finale
 - ```--citeproc``` abilita il modulo di elaborazione delle citazioni di Pandoc che elabora le citazioni e le bibliografie
 - ```--bibliography=bibliografia.bib``` indica che la bibliografia è situata nel file ```bibliografia.bib``` in formato BibTeX
 - ```--number-section``` indica a Pandoc di numerare automaticamente le sezioni del libro
@@ -202,11 +202,16 @@ Sono presenti:
 
 ### Valutazione del flusso di produzione
 
-Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di (i) riduzione dei tempi di gestione documentale, (ii) riduzione degli errori, (iii) miglioramento della qualità dei documenti, (iv) miglioramento del livello di accettazione della tecnologia, (v) raggiungimento di nuovi canali di distribuzione, (vi) soddisfacimento di nuovi scenari d'uso.
+Dal punto di vista della riduzuone dei tempi di gestione documentale, la modalità di acquisizione dei contenuti consente una rapida raccolta dei dati e dei contenuti stessi. In generale in questo tipo di contenuto editoriale, generato con AI, il costo temporale di produzione è inversamente proporzionale al costo temporale di revisione e controllo degli errori. Aumentando il tempo di generazione, ad esempio con prompt engineering adeguato e fine tuning, la fase di revisione diviene più leggera e meno costosa in termini di tempo.  
+La qualità dei contenuti generati risulta comunque nel complesso soddisfacente, in linea con le specifiche richieste in fase di ideazione. Esiste certamente un margine di miglioramento dal punto di vista della qualità del contenuto a discapito del costo di produzione. Per il livello richiesto in fase di specifiche il prodotto finale risulta in linea.  
+Per quanto riguarda l'accettazione del prodotto editoriale, il contenuto si presenta come già accennato fruibile e accettabile: una fase di revisione accurata consentirebbe ancora meglio di raggiungere un pubblico meno esperto.  
+Il formato ePub si presenta adatto agli scopi di distribuzione: la compatibilità è assicurata dai più importanti stores online di ebook. Per aumentare la portabilità è possibile anche la distribuzione in formato PDF.  
+Il soddisfacimento di nuovi scenari d'uso può avvienire mediante due modalità d'azione: riscrittura mediante AI generativa con livello di specificità maggiore o modifica dell'attuale contenuto rendendolo più corposo e dettagliato.
 
 ### Limiti emersi
 
 Il principale limite trovato è la difficile identificazione delle fonti con l'utilizzo delle AI generative: l'elenco fonti fornito dal modello stesso è di difficile controllo e revisione.
+L'AI generativa si dimostra molto utile nella diminuzione di costo, anche in termini temporali, anche se richiede comunque un lavoro di redazione manuale e di revisione delle fonti.
 
 ## Conclusioni
 
