@@ -22,7 +22,7 @@ Il progetto ha come obiettivo la creazione di un eBook con cenni sull'audio digi
 Il seguente prodotto editoriale è rivolto a un pubblico di neofiti e curiosi, che vogliono ampliare la propria cultura personale in materia. È adatto a chiunque voglia avvicinarsi al mondo dell'audio digitale e delle DAW in modo graduale senza scendere troppo nel dettaglio e nei tecnicismi.
 Le tecnologie adottate per la realizzazione del seguente eBook sono:
 
-- **Xcode** per la scrittura dei documenti LaTeX, Markdown e BibTeX
+- **Xcode** per la scrittura dei documenti LaTeX, Markdown, xml e BibTeX
 - **LaTeX** per la scrittura del contenuto dell'ebook
 - **Markdown** per la scrittura del contenuto dell'ebook
 - **BibTeX** formato per la scrittura della bibliografia e sitografia
@@ -173,7 +173,7 @@ flowchart LR
 
 Come già accennato le tecnologie adottate per generare il prodotto editoriale sono le seguenti:
 
-- **Xcode** per la scrittura dei documenti LaTeX, Markdown e BibTeX
+- **Xcode** per la scrittura dei documenti LaTeX, Markdown, xml e BibTeX
 - **LaTeX** per la scrittura del contenuto dell'ebook
 - **Markdown** per la scrittura del contenuto dell'ebook
 - **BibTeX** formato per la scrittura della bibliografia e sitografia
@@ -185,10 +185,12 @@ Come già accennato le tecnologie adottate per generare il prodotto editoriale s
 
 In particolare per lo scenario di distribuzione considerato (ebook distribuito digitalmente), considerato che il formato ePub è supportato da tutte le piattaforme di distribuzione di ebook, quest'ultimo è la soluzione migliore per l'esportazione del prodotto finale.  
 Il flusso di produzione ha quindi termine con la trasformazione di formato con il software Pandoc.
-Il comando Pandoc atto alla creazione del prodotto finale comprende una serie di opzioni:
+Il comando Pandoc atto alla creazione del prodotto finale ePub è il seguente:  
+```pandoc Audio\ digitale\ -\ breve\ storia\ delle\ DAW\ e\ il\ loro\ utilizzo.tex -o test.epub --citeproc --bibliography=bibliografia.bib --number-section --toc=true --css stylesheet.css --csl=IEEE.csl --epub-metadata=metadata.xml```  
 
-- 
+In particolare:
 
+-  
 
 ### Esecuzione del flusso
 
