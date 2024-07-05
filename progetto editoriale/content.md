@@ -19,7 +19,9 @@ Questo libro si rivolge a neofiti e appassionati che desiderano acquisire una co
 
 In questo volume, verranno esplorate le basi dell’audio digitale, introducendo brevemente la storia e le nozioni fondamentali necessarie per comprendere come il suono viene convertito in formato digitale. Successivamente, verrà esaminato in dettaglio il cuore del libro: le Digital Audio Workstations (DAW). Verrà illustrato cosa sono, a cosa servono, e come si sono evolute nel tempo, trasformando radicalmente il modo in cui la musica e l’audio vengono prodotti. Infine, verranno analizzate le caratteristiche di innovazione delle DAW rispetto alle tecnologie analogiche, mettendo in evidenza come queste abbiano reso la produzione musicale più accessibile ed efficiente.
 
-L’introduzione termina con un invito a intraprendere questo viaggio alla scoperta del mondo dell’audio digitale e delle DAW. Che si tratti di aspiranti produttori musicali, appassionati o semplici curiosi, si auspica che questo libro possa offrire una comprensione chiara e avvincente di questi temi, aprendo la strada ad approfondimenti più mirati.
+L’introduzione termina con un invito a intraprendere questo viaggio alla scoperta del mondo dell’audio digitale e delle DAW. Che si tratti di aspiranti produttori musicali, appassionati o semplici curiosi, si auspica che questo libro possa offrire una comprensione chiara e avvincente di questi temi, aprendo la strada ad approfondimenti più mirati.  
+
+Il contenuto di questo libro è in parte generato automaticamente da strumenti AI: [Scopri di più](https://www.treccani.it/enciclopedia/intelligenza-artificiale/)
 
 ## AUDIO DIGITALE: basi e cenni storici
 
@@ -355,6 +357,3 @@ Un altro protocollo emergente è OSC (Open Sound Control), che offre maggiore fl
 In sintesi, le innovazioni e gli sviluppi futuri delle DAW promettono di trasformare ulteriormente il panorama della produzione musicale. L’integrazione dell’intelligenza artificiale e del machine learning, la collaborazione cloud, le interfacce utente avanzate, il supporto per nuovi formati audio e l’evoluzione dei protocolli di controllo sono solo alcune delle tendenze che stanno plasmando il futuro delle DAW. Queste innovazioni renderanno la produzione musicale più accessibile, flessibile e creativa, aprendo nuove possibilità per musicisti e produttori di tutto il mondo. Con queste tecnologie all’avanguardia, il futuro della musica digitale appare estremamente promettente e ricco di opportunità per l’esplorazione sonora e la creatività artistica.
 
 ## Bibliografia, sitografia e testi di approfondimento
----
-nocite: '@*'
----
