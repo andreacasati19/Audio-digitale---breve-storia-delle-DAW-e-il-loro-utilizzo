@@ -1,6 +1,6 @@
 # Contenuto del repository
 
-Il seguente repository contiene i documenti che costituiscono un ebook il cui titolo è "Audio digitale - breve storia delle DAW e il loro utilizzo".
+Il seguente repository contiene i documenti che costituiscono un ebook il cui titolo è "Audio digitale - breve storia delle DAW e il loro utilizzo".  
 I documenti sono i seguenti:
 
 - content.tex: contenuto vero e proprio del libro scritto in formato LaTeX
