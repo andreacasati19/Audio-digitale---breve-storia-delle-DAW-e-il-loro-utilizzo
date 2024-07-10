@@ -8,7 +8,7 @@ I documenti sono i seguenti:
 - metadata.xml: metadati in formato xml scritti in formato Dublin Core
 - stylesheet.css: foglio di stile per l'ebook da creare
 - bibliografia.bib: bibliografia del testo in formato BibTeX
-- IEEE.csl: stile per le citazioni e bibliografia
+- IEEE.csl: ocumento per le specifiche di stile delle citazioni e della bibliografia
 
 Per generare l'ebook finale in formato ePub è necessario utilizzare il software di conversione di formato [Pandoc](https://pandoc.org/).
 
