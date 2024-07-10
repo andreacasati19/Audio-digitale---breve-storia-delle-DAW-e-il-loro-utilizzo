@@ -6,7 +6,7 @@ I documenti sono i seguenti:
 - relazione.md: contenuto della relazione scritto in formato Markdown
 - bibliografia.bib: bibliografia del progetto editoriale scritta in formato BibTeX
 - IEEE.csl: documento per le specifiche di stile delle citazioni e della bibliografia
-- directory:
+- directories:
     - flusso: descrizione del flusso di creazione editoriale
     - logo: logo dell'Università degli Studi di Milano
     - monitoraggio: risultati del monitoraggio editoriale sui temi toccati dal prodotto editoriale
